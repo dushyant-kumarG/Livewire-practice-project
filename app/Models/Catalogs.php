@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Catalogs extends Model
+{
+    use HasFactory;
+
+    protected $table = 'pim_flat_catalog';
+    protected $guarded = [''];
+}
